@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.lang.Integer;
 import java.lang.String;
 import java.sql.Date;
+import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.*;
@@ -30,14 +31,14 @@ public class Usuario implements Serializable {
 	private String estado;
 	private String salt;
 	
-    @ManyToMany
+    @ManyToMany(cascade=CascadeType.ALL)
     @JoinTable(name="USUARIO_ROL",
                 joinColumns=
                      @JoinColumn(name="USUARIO_ID"),
                 inverseJoinColumns=
                      @JoinColumn(name="ROLES_ID")
     )
-	private Set<Rol> roles;
+	private Set<Rol> roles = new HashSet<Rol>();
     
 	private static final long serialVersionUID = 1L;
 

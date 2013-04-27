@@ -23,6 +23,7 @@
 		<class>cl.altair.acceso.modelo.TipoDependencia</class>
 		<class>cl.altair.acceso.modelo.Holding</class>
 		<class>cl.altair.acceso.modelo.Evento</class>
+		<class>cl.altair.acceso.modelo.Programa</class>
 		<properties>
 			<property name="eclipselink.ddl-generation.output-mode" value="database" />
 	  	  	<property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
