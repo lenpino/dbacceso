@@ -237,21 +237,21 @@ public class RegionDAO {
 				14, 
 				15 				
 		};
-		String[] regiones = {"Región de Tarapacá",
-							"Región de Antofagasta",
-							"Región de Atacama",
-							"Región de Coquimbo",
-							"Región de Valparaíso",
-							"Región del Libertador Gral. Bernardo O’Higgins", 
-							"Región del Maule",
-							"Región del Biobío",
-							"Región de la Araucanía",
-							"Región de Los Lagos",
-							"Región Aisén del Gral. Carlos Ibáñez del Campo",
-							"Región de Magallanes y de la Antártica Chilena",
-							"Región Metropolitana de Santiago",
-							"Región de Los Ríos",
-							"Región de Arica y Parinacota"				
+		String[] regiones = {"Regi√≥n de Tarapac√°",
+							"Regi√≥n de Antofagasta",
+							"Regi√≥n de Atacama",
+							"Regi√≥n de Coquimbo",
+							"Regi√≥n de Valpara√≠so",
+							"Regi√≥n del Libertador Gral. Bernardo O'Higgins", 
+							"Regi√≥n del Maule",
+							"Regi√≥n del Biob√≠o",
+							"Regi√≥n de la Araucan√≠a",
+							"Regi√≥n de Los Lagos",
+							"Regi√≥n Ais√©n del Gral. Carlos Ib√°√±ez del Campo",
+							"Regi√≥n de Magallanes y de la Ant√°rtica Chilena",
+							"Regi√≥n Metropolitana de Santiago",
+							"Regi√≥n de Los R√≠os",
+							"Regi√≥n de Arica y Parinacota"				
 		};
 		try {
 			final String queryString = "INSERT INTO \"APP\".region VALUES (?, ?)";
